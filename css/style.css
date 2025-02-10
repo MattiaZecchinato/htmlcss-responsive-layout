@@ -27,6 +27,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+
+    margin-bottom: 30px;
+}
+
 .text-center {
 
     text-align: center;
@@ -35,6 +40,16 @@ h2 {
 .text-uppercase {
 
     text-transform: uppercase;
+}
+
+.hidden-text {
+
+    display: none;
+}
+
+.bold-text {
+
+    font-weight: bold;
 }
 
 /******** 
@@ -62,10 +77,26 @@ main {
     margin-bottom: 10px;
 }
 
-/* recipe name */
-.hidden-text {
+/*** recipe highlight container ***/
 
-    display: none;
+.recipe-highlight-container img {
+
+    width: 100%;
+    display: block;
+}
+
+.recipe-info-container {
+
+    background-color: #FFFFFF;
+    padding: 35px 30px 50px;
+}
+
+.recipe-info-container ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /******** 
