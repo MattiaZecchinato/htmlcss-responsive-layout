@@ -191,6 +191,7 @@ footer ul {
     gap: 10px;
 }
 
+/* copyright container */
 .copyright-container .bold-text {
 
     margin-bottom: 10px;
@@ -218,6 +219,11 @@ responsive
         padding: 60px 55px 70px;
     }
 
+    footer {
+
+        padding: 20px 100px 30px;
+    }
+
     h1 {
 
         font-size: 2.25rem;
@@ -239,10 +245,14 @@ responsive
         display: inline;
     }
 
-    .text-center {
+    header .text-center {
 
         text-align: start;
     }
+
+    /*** 
+    main 
+    ***/
 
     /* food section name */
     .food-section-name {
@@ -292,6 +302,25 @@ responsive
         float: left;
         padding: 0 10px 0 0;
         margin: 10px 0 0 0;
+    }
+
+    /*** 
+    footer 
+    ***/
+    footer * {
+
+        font-size: 1rem;
+    }
+
+    /* copyright container */
+    .copyright-container .bold-text {
+
+        margin-bottom: 15px;
+    }
+
+    .copyright-container p:last-child {
+
+        margin-bottom: 20px;
     }
 }
 
