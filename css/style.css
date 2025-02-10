@@ -38,6 +38,12 @@ hr {
     border-color: #F7972E;
 }
 
+img {
+
+    width: 100%;
+    display: block;
+}
+
 #color-fb {
 
     color: #1A77F3;
@@ -102,12 +108,6 @@ main {
 .recipe-highlight-container {
 
     margin-bottom: 25px;
-}
-
-.recipe-highlight-container img {
-
-    width: 100%;
-    display: block;
 }
 
 .recipe-info-container {
@@ -228,7 +228,6 @@ responsive
 
     .banner-container img {
 
-        width: 100%;
         display: block;
     }
 }
