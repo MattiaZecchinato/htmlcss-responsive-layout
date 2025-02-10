@@ -93,6 +93,10 @@ main {
 }
 
 /*** recipe highlight container ***/
+.recipe-highlight-container {
+
+    margin-bottom: 25px;
+}
 
 .recipe-highlight-container img {
 
