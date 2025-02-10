@@ -255,10 +255,10 @@ responsive
 
     .recipe-container img {
 
-        width: 60%;
+        width: 35%;
         float: left;
         padding: 0 10px 0 0;
-        margin: 0;
+        margin: 10px 0 0 0;
     }
 }
 
