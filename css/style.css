@@ -126,8 +126,26 @@ responsive
         padding: 30px 25px;
     }
 
+    main {
+
+        padding: 85px 370px;
+    }
+
     h1 {
 
         font-size: 2.5rem;
+    }
+
+    h2 {
+
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    /* food section name */
+    .food-section-name {
+
+        font-size: 0.75rem;
+        margin-bottom: 20px;
     }
 }
