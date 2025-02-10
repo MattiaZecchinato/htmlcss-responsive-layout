@@ -246,6 +246,20 @@ responsive
 
         display: block;
     }
+
+    /* recipe container */
+    .recipe-container {
+
+        margin: 35px auto;
+    }
+
+    .recipe-container img {
+
+        width: 60%;
+        float: left;
+        padding: 0 10px 0 0;
+        margin: 0;
+    }
 }
 
 /* desktop size */
