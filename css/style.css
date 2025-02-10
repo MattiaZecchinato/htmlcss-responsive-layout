@@ -135,6 +135,12 @@ main {
     border-radius: 30px;
 }
 
+/* title recipe presentation */
+.banner-container + p {
+
+    font-size: 2rem;
+}
+
 /******** 
 footer 
 ********/
