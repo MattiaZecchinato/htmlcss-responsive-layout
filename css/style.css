@@ -26,6 +26,11 @@ h1 {
     text-align: center;
 }
 
+.text-uppercase {
+
+    text-transform: uppercase;
+}
+
 /******** 
 header 
 ********/
@@ -41,6 +46,13 @@ main {
 
     background-color: #F6F5F3;
     padding: 25px 20px;
+}
+
+/* food section name */
+.food-section-name {
+
+    color: #999999;
+    font-size: 0.5rem;
 }
 
 /******** 
