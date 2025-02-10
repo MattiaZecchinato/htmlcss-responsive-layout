@@ -145,6 +145,7 @@ main {
 .banner-container + p {
 
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 /******** 
