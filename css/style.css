@@ -337,6 +337,11 @@ responsive
         padding: 70px 300px 90px;
     }
 
+    footer {
+
+        padding: 20px 30px 30px;
+    }
+
     h1 {
 
         font-size: 2.5rem;
@@ -357,6 +362,11 @@ responsive
     .hidden-text {
 
         display: inline;
+    }
+
+    footer .text-center {
+
+        text-align: start;
     }
 
     /* food section name */
@@ -419,5 +429,27 @@ responsive
     .recipe-container p {
 
         font-size: 1.25rem;
+    }
+
+    /*** 
+    footer 
+    ***/
+    footer * {
+
+        font-size: 1.25rem;
+    }
+
+    /* footer container */
+    .footer-container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* copyright container */
+    .copyright-container p:last-child {
+
+        margin-bottom: 0;
     }
 }
