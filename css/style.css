@@ -87,6 +87,11 @@ ul {
     font-weight: bold;
 }
 
+.box-shadow {
+
+    box-shadow: 5px 5px 10px #E3E1E2;
+}
+
 /******** 
 header 
 ********/
