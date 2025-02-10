@@ -47,6 +47,11 @@ img {
     display: block;
 }
 
+ul {
+
+    list-style-type: none;
+}
+
 #color-fb {
 
     color: #1A77F3;
@@ -121,7 +126,6 @@ main {
 
 .recipe-info-container ul {
 
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -167,6 +171,35 @@ main {
 /******** 
 footer 
 ********/
+footer {
+    
+    background-color: #7C69A4;
+    padding: 20px 60px 30px;
+}
+
+footer * {
+
+    color: #FFFFFF;
+    font-size: 0.75rem;
+}
+
+footer ul {
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.copyright-container .bold-text {
+
+    margin-bottom: 10px;
+}
+
+.copyright-container p:last-child {
+
+    margin-bottom: 15px;
+}
 
 /******** 
 responsive 
