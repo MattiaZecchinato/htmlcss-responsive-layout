@@ -8,10 +8,32 @@
 /******** 
 common 
 ********/
+body {
+
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+
+    font-size: 2rem;
+    color: #FF9614;
+    font-family: 'Nerko One', cursive;
+    text-transform: uppercase;
+}
+
+.text-center {
+
+    text-align: center;
+}
 
 /******** 
 header 
 ********/
+header {
+
+    background-color: blueviolet;
+    padding: 20px 0;
+}
 
 /******** 
 main 
