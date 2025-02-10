@@ -131,6 +131,11 @@ responsive
         margin-bottom: 25px;
     }
 
+    h3 {
+
+        margin-bottom: 35px;
+    }
+
     .text-center {
 
         text-align: start;
@@ -146,6 +151,21 @@ responsive
     .hidden-text {
 
         display: inline;
+    }
+
+    /* recipe highlight */
+    .recipe-info-container ul {
+
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .recipe-info-container ul li {
+
+        width: calc((100% - 60px) / 3);
     }
 }
 
