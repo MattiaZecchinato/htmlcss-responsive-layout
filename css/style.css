@@ -206,6 +206,14 @@ responsive
 
         padding: 15px 50px;
     }
+
+    /* ad banner */
+    .banner-container img {
+
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
 }
 
 /* desktop size */
