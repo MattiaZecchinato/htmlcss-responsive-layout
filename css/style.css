@@ -32,6 +32,12 @@ h3 {
     margin-bottom: 30px;
 }
 
+hr {
+
+    width: 90px;
+    border-color: #F7972E;
+}
+
 #color-fb {
 
     color: #1A77F3;
