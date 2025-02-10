@@ -212,6 +212,7 @@ responsive
 
         margin-bottom: 40px;
     }
+
     .banner-container img {
 
         width: 100%;
@@ -289,5 +290,11 @@ responsive
     .social-container a span {
 
         color: #000000;
+    }
+
+    /* ad banner */
+    .banner-container {
+
+        margin-bottom: 60px;
     }
 }
