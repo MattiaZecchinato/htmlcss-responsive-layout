@@ -32,6 +32,21 @@ h3 {
     margin-bottom: 30px;
 }
 
+#color-fb {
+
+    color: #1A77F3;
+}
+
+#color-ig {
+
+    color: #DE3D78;
+}
+
+.social-container a.color-pt-yt {
+
+    color: #E62222;
+}
+
 .text-center {
 
     text-align: center;
@@ -97,6 +112,23 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* button social */
+.social-container {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.social-container a {
+
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 30px;
 }
 
 /******** 
