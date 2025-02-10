@@ -62,6 +62,12 @@ main {
     margin-bottom: 0.5em;
 }
 
+/* recipe name */
+.hidden-text {
+
+    display: none;
+}
+
 /******** 
 footer 
 ********/
@@ -86,6 +92,12 @@ responsive
     .text-center {
 
         text-align: start;
+    }
+
+    /* recipe name */
+    .hidden-text {
+
+        display: inline;
     }
 }
 
