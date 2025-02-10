@@ -171,6 +171,11 @@ responsive
 
         margin-bottom: 35px;
     }
+    
+    .recipe-name-container .hidden-text {
+
+        display: inline;
+    }
 
     .text-center {
 
@@ -181,12 +186,6 @@ responsive
     .food-section-name {
 
         margin-bottom: 15px;
-    }
-
-    /* recipe name */
-    .hidden-text {
-
-        display: inline;
     }
 
     /* recipe highlight */
@@ -200,6 +199,12 @@ responsive
     .recipe-info-container ul li {
 
         width: calc((100% - 60px) / 3);
+    }
+
+    /* button social */
+    .social-container a {
+
+        padding: 15px 50px;
     }
 }
 
