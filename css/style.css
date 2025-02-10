@@ -20,6 +20,13 @@ h1 {
     font-family: 'Nerko One', cursive;
 }
 
+h2 {
+
+    font-size: 1rem;
+    color: #4E3969;
+    margin-bottom: 30px;
+}
+
 .text-center {
 
     text-align: center;
@@ -44,7 +51,7 @@ main
 main {
 
     background-color: #F6F5F3;
-    padding: 25px 20px;
+    padding: 30px 25px;
 }
 
 /* food section name */
