@@ -156,8 +156,6 @@ responsive
     /* recipe highlight */
     .recipe-info-container ul {
 
-        list-style-type: none;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
@@ -198,5 +196,28 @@ responsive
 
         font-size: 0.75rem;
         margin-bottom: 20px;
+    }
+
+    /* recipe highlight */
+    .recipe-highlight-container {
+
+        display: flex;
+    }
+
+    .recipe-info-container {
+
+        width: 30%;
+    }
+
+    .recipe-info-container ul {
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .recipe-info-container ul li {
+
+        width: 100%;
     }
 }
