@@ -257,6 +257,12 @@ responsive
         margin-bottom: 30px;
     }
 
+    hr {
+
+        width: 110px;
+        border: 2px solid #F7972E;
+    }
+
     .hidden-text {
 
         display: inline;
@@ -309,5 +315,12 @@ responsive
     .banner-container {
 
         margin-bottom: 60px;
+    }
+
+    /* title recipe presentation */
+    .banner-container + p {
+
+        font-size: 2.5rem;
+        margin-bottom: 30px;
     }
 }
