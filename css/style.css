@@ -218,7 +218,7 @@ responsive
 
     main {
 
-        padding: 85px 370px;
+        padding: 85px 300px;
     }
 
     h1 {
@@ -230,6 +230,11 @@ responsive
 
         font-size: 2rem;
         margin-bottom: 30px;
+    }
+
+    .hidden-text {
+
+        display: inline;
     }
 
     /* food section name */
@@ -260,5 +265,18 @@ responsive
     .recipe-info-container ul li {
 
         width: 100%;
+    }
+
+    /* button social */
+    .social-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .social-container a span {
+
+        color: #000000;
     }
 }
