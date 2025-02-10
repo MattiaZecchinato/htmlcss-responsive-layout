@@ -148,6 +148,19 @@ main {
     margin-bottom: 20px;
 }
 
+/* recipe container */
+
+.recipe-container img {
+
+    margin: 20px auto;
+    padding: 0 80px;
+}
+
+.recipe-container p {
+
+    line-height: 2;
+}
+
 /******** 
 footer 
 ********/
